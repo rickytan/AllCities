@@ -120,11 +120,11 @@
 		9C5C387C18DB1944005A5F11 /* CityDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9C5C38B018DB1B1B005A5F11 /* RTCityPickerField.bundle */,
 				9C5C388E18DB1944005A5F11 /* Images.xcassets */,
 				9C5C388818DB1944005A5F11 /* Main.storyboard */,
 				9C5C388518DB1944005A5F11 /* RTAppDelegate.h */,
 				9C5C388618DB1944005A5F11 /* RTAppDelegate.m */,
+				9C5C38B018DB1B1B005A5F11 /* RTCityPickerField.bundle */,
 				9C5C38AB18DB19A1005A5F11 /* RTCityPickerField.h */,
 				9C5C38AC18DB19A1005A5F11 /* RTCityPickerField.m */,
 				9C5C388B18DB1944005A5F11 /* RTViewController.h */,

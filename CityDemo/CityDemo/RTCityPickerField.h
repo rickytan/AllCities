@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RTCityPickerField.bundle/FMDB/FMDatabase.h"
+#import "RTCityPickerField.bundle/FMDB/FMDatabaseQueue.h"
 
 @interface RTCityPickerField : UITextField
 
