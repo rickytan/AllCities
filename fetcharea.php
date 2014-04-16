@@ -7,8 +7,10 @@
         $url = $baseUrl.$areaId;
         echo "Get ".$url."\n";
         $value = file_get_contents($url);
+        $value = strstr($value, "(");
         $value = substr($value, 1, strlen($value) - 2);
         $result = json_decode($value, true);
+        var_dump($result);
         $rtnval = array();
         if (is_array($result)) {
             foreach ($result as $area) {
